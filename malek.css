@@ -152,4 +152,9 @@ body {
     border-radius: 8px 8px 0 0; /* Optional: rounds the top corners */
     display: block; /* Removes unwanted space below image */
   }
-  
+  .team img {
+    width: 100%; /* Stretches to fill the width of the container */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Crops and ensures no stretching */
+    border-radius: 8px 8px 0 0; /* Optional: rounds the top corners */
+    display: block; /* Removes unwanted space below image */
